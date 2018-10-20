@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  
+  <body>
+	<header id="header">
+		<div id="headCase">
+			<div id="hgroup">
+				<h1><a href="/">Учебные Материалы</a></h1>
+				<h2>МатМех УрГУ</h2>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="/">Главная</a></li>
+					<li><a href="/resources">Материалы</a></li>
+					<li><a href="/useful">Полезное</a></li>
+					<li><a href="/news">Новости</a></li>
+					<li class="last"><a href="/about">О нас</a></li>
+				</ul>
+			</nav>
+			<div id="links">
+				<a href="https://drive.google.com/drive/folders/1FsD50rFRUbAYkL9nVp1xR4NAvYPpNFsH?usp=sharing" class="btn btn-gdrive"><span class="icon" background="red"></span>GoogleDrive</a>
+				<a href="https://1drv.ms/f/s!AvjkBIEMIOC0jQFsXobGjb8EZ-rf" class="btn btn-onenote"><span class="icon"></span>OneNote</a>
+			</div>
+		</div>
+	</header>
+	<div class="layout">
+		<div class="container">
+		  <section id="main_content">
+			{{ content }}
+		  </section>
+		</div>
+	</div>
+  </body>
+</html>
