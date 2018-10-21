@@ -20,8 +20,8 @@ body {
 /* General & 'Reset' Stuff */
 
 .container {
-  width: 60%;
-  max-width: 60%;
+  width: 75%;
+  max-width: 75%;
   margin: auto;
 }
 
@@ -46,8 +46,7 @@ li {
 
 #header{
 	width:100%;
-	padding: 10px;
-	text-align:left; 
+	text-align:left;
 	color:#333333;
 	background-color:#333333;
 	background-size:100%;
@@ -56,7 +55,7 @@ li {
 	overflow:auto;
 	top:0;
 }
-#header #headCase{width:80%; margin:auto auto 20px auto;}
+#header #headCase{width:80%; margin:auto auto auto auto; overflow:auto; padding:1%;}
 
 #header #hgroup{float:left; margin:0;}
 #header #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none; margin:0; padding:0; font-family:Georgia; color:#C0BAB6;}
