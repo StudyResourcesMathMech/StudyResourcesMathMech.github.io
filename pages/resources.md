@@ -29,9 +29,9 @@ permalink: /resources/
 
   > Empty
 
-* [ООП](https://drive.google.com/open?id=1cpR6Or0dfDd05xHkIftXvF3G7bRWx1BS)
+* [ООП](/pages/subjects/OOP)
 
-  > Empty
+  > Добавлено описание предмета и полезная информация.
 
 * [Экономика](https://drive.google.com/open?id=1KJ4bEz5xZ1tmCoQwq7BLmSjL0TjF5LJG)
 
