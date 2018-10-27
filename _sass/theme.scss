@@ -65,11 +65,22 @@ hr {
 	color:#333333;
 	background-size:100%;
 	font-family:Georgia;
-	overflow:auto;
 	top:0;
 	border-bottom: 2px solid #fff;
+	overflow: auto;
 }
-#header #headCase{width:80%; margin:auto auto auto auto; overflow:auto; padding:1%;}
+
+
+
+#header #headCase{
+	min-width:1000px;
+	width:80%;
+	overflow-y: auto;
+    overflow-x: hidden;
+	margin:auto auto auto auto; 
+	overflow:auto; 
+	padding:1%;
+}
 
 #header #hgroup{float:left; margin:0; border-right: 1px solid #fff; padding: 0 15px 0 0;}
 #header #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none; margin:0; padding:0; font-family:Georgia;}
