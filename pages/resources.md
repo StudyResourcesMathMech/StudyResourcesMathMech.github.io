@@ -13,7 +13,7 @@ permalink: /resources/
 
 [Компьютерные сети](/pages/subjects/ComputerNetworks)
 
-[Python](/pages/subjects/Python)
+[Языки сценариев (Python)](/pages/subjects/Python)
 
 [ООП](/pages/subjects/OOP)
 
