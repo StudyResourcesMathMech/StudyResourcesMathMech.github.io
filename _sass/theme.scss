@@ -136,6 +136,9 @@ hr {
 		padding: 5%;
 		width:78%;
 	}
+	#header{
+		border-bottom:0;
+	}
 } 
 
 .layout {
@@ -190,6 +193,25 @@ li {
   text-transform: uppercase;
   color: #999;
   margin: 0 0 5px 0;
+}
+
+
+#header::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+#header::-webkit-scrollbar:horizontal {
+    height: 4px;
+}
+
+#header::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+}
+
+#header::-webkit-scrollbar-track {  
+    background-color: #ffffff;
 }
 
 
