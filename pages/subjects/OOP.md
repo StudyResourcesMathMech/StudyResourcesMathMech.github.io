@@ -27,7 +27,7 @@ function toggleFunc(el_name) {
 //-->
 </script>
 
-## <a href="#" onclick="toggleFunc('course_info')">Как проходит курс</a>
+## <a href="javascript:toggleFunc('course_info')">Как проходит курс</a>
 <div id="course_info" style="display:none;" markdown='1'>
 **ООП** - Объектно-ориентированное программирование
   
@@ -83,7 +83,7 @@ function toggleFunc(el_name) {
 </div>
 
 
-## <a href="#" onclick="toggleFunc('useful_materials')">Полезные материалы</a>
+## <a href="javascript:toggleFunc('useful_materials')">Полезные материалы</a>
 <div id="useful_materials" style="display:none;" markdown='1'>
 ### [Материалы на Облаке](https://drive.google.com/open?id=1cpR6Or0dfDd05xHkIftXvF3G7bRWx1BS)
 

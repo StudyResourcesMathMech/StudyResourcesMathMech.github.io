@@ -3,6 +3,7 @@
 
 
 body {
+  min-width:500px;
   background-color: #edeef0;
   color: #222;
   margin: 0;
@@ -10,6 +11,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: "-apple-system",BlinkMacSystemFont,Arial,sans-serif;
+  max-width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -116,15 +118,30 @@ hr {
 
 .container {
   width: 55%;
-  min-width: 600px;
   margin: auto;
   background-color: #fff;
   padding: 30px;
   border-radius: 3px;
 }
 
+@media only screen and (max-width: 600px) {
+	.container {
+		padding: 5%;
+		width:88%;
+	}
+} 
+
+@media only screen and (max-width: 1000px) {
+	.container {
+		padding: 5%;
+		width:78%;
+	}
+} 
+
 .layout {
 	margin: 20px auto;
+	overflow:auto;
+	width:100%;
 }
 
 section {
