@@ -4,7 +4,7 @@ layout: default
 <script src="/assets/scripts/hide.js"></script>
 
 
-# ООП
+# Архитектура ЭВМ
 
 ## Преподаватели:
 
